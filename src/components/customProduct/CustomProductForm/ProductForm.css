@@ -1,0 +1,91 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    display: none;
+}
+
+.form-header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 1.2rem;
+    align-items: center;
+    box-shadow: 0.3rem 0.2rem 0.2rem grey;
+}
+
+.form-container{
+    margin-inline: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.product-form {
+    text-align: left;
+    max-width: 50rem;
+    margin: 2rem auto;
+    padding: 2rem;
+    /*border: 0.3rem solid #ccc;*/
+    box-shadow: 0.4rem 0.4rem 1rem grey;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+.label {
+    display: inline-block;
+    margin-bottom: 0.4rem;
+    margin-top: 0.8rem;
+}
+
+.radio-label {
+    display: inline-block;
+    margin-block: 0.15rem;
+}
+.input-field {
+    width: 100%;
+    padding: 0.625rem;
+    border: 0.0625rem solid #ccc;
+    border-radius: 0.188rem;
+    font-size: 1rem;
+}
+
+.success-message {
+    color: green;
+    margin-top: 0.625rem;
+}
+
+.product-form-stock{
+    display: flex;
+    flex-direction: row;
+}
+
+.product-form-stock>button{
+    display: flex;
+    padding: 0.5rem;
+    height: 2.5rem;
+    margin-inline: 0.3rem;
+    align-items: center;
+}
+
+.error-message{
+    color: red;
+}
+
+.form-header-text>button{
+    padding: 1rem;
+    background-color: black;
+    border: 0.09rem solid black;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 1rem;
+}
+
+.form-header-text>button:hover{
+    background-color: white;
+    color: black;
+}
+
+.text-danger{
+    color: red;
+}
+

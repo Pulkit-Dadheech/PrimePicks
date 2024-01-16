@@ -1,0 +1,26 @@
+.custom-header-elements {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    box-shadow: 0.125rem 0.125rem 0.313rem rgba(0, 0, 0, 0.63);
+    justify-content: space-around;
+    text-align: center;
+    background-color: white;
+    align-items: center;
+}
+#custom-form>button,#cart>button{
+    padding: 1rem;
+    background-color: black;
+    border: 0.09rem solid black;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 1rem;
+}
+
+#custom-form>button:hover,#cart>button:hover{
+    transition: 0.3s;
+    background-color: white;
+    color: black;
+}

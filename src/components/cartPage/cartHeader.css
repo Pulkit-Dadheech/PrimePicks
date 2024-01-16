@@ -1,0 +1,43 @@
+.cart-header {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 1.25rem;
+    justify-content: space-between;
+    box-shadow: 0.125rem 0.125rem 0.125rem grey;
+    align-items: center;
+    border-radius: 0.625rem;
+    border: 0.125rem solid grey;
+}
+
+.cart-header-name {
+    font-size: 2.5rem;
+    padding-inline: 1.875rem;
+    color: cadetblue;
+}
+
+.homepage>button{
+    padding: 1rem;
+    background-color: black;
+    border: 0.09rem solid black;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 1rem;
+}
+
+.homepage>button:hover{
+    transition: 0.3s;
+    background-color: white;
+    color: black;
+}
+
+.cart-total-products {
+    text-align: center;
+    padding-inline: 1.875rem;
+    background-color: black;
+    padding: 0.938rem;
+    border-radius: 1.25rem;
+    color: white
+}
