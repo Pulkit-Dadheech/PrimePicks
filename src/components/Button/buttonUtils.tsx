@@ -45,6 +45,7 @@ export const ButtonUtils = observer(<T extends ListTableStore<any>, >({quantity,
                     skip: store.data.skip,
                     total: store.data.total
                 }
+
                 setLocalStorageData('cartProducts' + cart.cartStore.userId, newStore);
                 store.setData(newStore);
                 customProduct.customProductStore.setData(result.filter((data: any) => data.id.toString().includes("custom")));

@@ -17,7 +17,7 @@ export class CategoryStore {
             this.updateLoading();
             const response = await fetch("https://dummyjson.com/products/categories")
             const data = await response.json();
-            return data;
+            return data.map((category: any)=>category.name);
         } catch (error) {
             console.error("Error loading data", error);
         } finally {
