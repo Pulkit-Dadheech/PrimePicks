@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0b9e603-d078-460e-bc82-f5f86c915f8c" name="Changes" comment="resolve homepage to website">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d0b9e603-d078-460e-bc82-f5f86c915f8c" name="Changes" comment="added 404.html to resolve deployment error" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +66,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723294648792</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added 404.html to resolve deployment error">
+      <option name="closed" value="true" />
+      <created>1723295465379</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723295465379</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +105,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="resolve homepage to website" />
-    <option name="LAST_COMMIT_MESSAGE" value="resolve homepage to website" />
+    <MESSAGE value="added 404.html to resolve deployment error" />
+    <option name="LAST_COMMIT_MESSAGE" value="added 404.html to resolve deployment error" />
   </component>
 </project>
