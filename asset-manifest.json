@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/PrimePicks/static/css/main.62d25971.css",
+    "main.js": "/PrimePicks/static/js/main.f8776c97.js",
+    "static/media/NoResult.png": "/PrimePicks/static/media/NoResult.ec93b652bebfd0520993.png",
+    "index.html": "/PrimePicks/index.html",
+    "main.62d25971.css.map": "/PrimePicks/static/css/main.62d25971.css.map",
+    "main.f8776c97.js.map": "/PrimePicks/static/js/main.f8776c97.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62d25971.css",
+    "static/js/main.f8776c97.js"
+  ]
+}
